@@ -5,7 +5,7 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-   base: '/xapp/',
+base: import.meta.env.VERCEL ? '/' : '/xapp/',
   plugins: [react(),
     tailwindcss()],
 })
