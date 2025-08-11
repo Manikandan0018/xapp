@@ -1,5 +1,6 @@
 {
   "rewrites": [
-    { "source": "/xapp/(.*)", "destination": "/index.html" }
+    { "source": "/xapp/assets/(.*)", "destination": "/xapp/assets/$1" },
+    { "source": "/xapp/(.*)", "destination": "/xapp/index.html" }
   ]
 }
