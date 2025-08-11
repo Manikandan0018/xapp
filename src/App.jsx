@@ -40,7 +40,7 @@ const App = () => {
   ☰
 </button>
       <ToastContainer  autoClose={3000}/>
-      <Routes basename="/xapp">
+      <Routes basename="/">
         <Route path="/" element={authUser ? <Navigate to="/home" /> : <Front />} />
         <Route path="/login" element={authUser ? <Navigate to="/home" /> : <Login />} />
         <Route path="/signup" element={authUser ? <Navigate to="/home" /> : <SignUp />} />
