@@ -12,7 +12,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
 
     <QueryClientProvider client={queryClient}>
-      <BrowserRouter  basename="/xapp">
+     <BrowserRouter basename="/xapp">
         <App />
       </BrowserRouter>    </QueryClientProvider>
   </React.StrictMode>

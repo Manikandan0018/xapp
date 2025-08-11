@@ -1,5 +1,5 @@
 {
   "rewrites": [
-    { "source": "/xapp/(.*)", "destination": "/xapp/index.html" }
+    { "source": "/xapp/(.*)", "destination": "/index.html" }
   ]
 }
